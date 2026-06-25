@@ -104,7 +104,7 @@ export default function App() {
             </h1>
           </div>
           <p className="text-[11px] sm:text-[12px] text-muted tracking-[1.5px] uppercase mt-1 font-mono">
-            滅 黑暗之雲激鬥戰 - Tactical Briefing / 子言攻略重點摘要
+            滅 黑暗之雲激鬥戰
           </p>
         </div>
         <div className="flex flex-col md:flex-row items-end md:items-center gap-4 self-end md:self-auto">
@@ -126,16 +126,6 @@ export default function App() {
             >
               P3 專屬模擬
             </button>
-          </div>
-          <div className="flex gap-4">
-            <div className="text-right border-r border-border/50 pr-4">
-              <div className="font-serif text-[16px] sm:text-[18px] text-text font-bold text-accent">SAVAGE</div>
-              <div className="text-[9px] text-muted uppercase tracking-widest mt-0.5 font-mono">Difficulty</div>
-            </div>
-            <div className="text-right">
-              <div className="font-serif text-[16px] sm:text-[18px] text-text">8 MAN</div>
-              <div className="text-[9px] text-muted uppercase tracking-widest mt-0.5 font-mono">Party Size</div>
-            </div>
           </div>
         </div>
       </header>
@@ -668,12 +658,8 @@ export default function App() {
         <P3Simulator />
       )}
 
-      {/* Footer with briefing indicators */}
-      <footer className="border-t border-border/60 pt-3.5 shrink-0 flex flex-col sm:flex-row justify-between items-center text-[10px] text-muted uppercase tracking-[1.5px] gap-2">
-        <span>Confidential Tactical Summary</span>
-        <span className="text-accent font-serif tracking-[2px] hidden sm:inline">Reference: OS-G-2026-CLOUD</span>
-        <span>Authorized for Field Use Only</span>
-      </footer>
+      {/* Optional padding block if we just remove the footer */}
+      <div className="pb-4"></div>
 
     </div>
   );
