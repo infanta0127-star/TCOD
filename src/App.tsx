@@ -372,7 +372,7 @@ export default function App() {
               {/* Basic Position Map */}
               <div className="rounded-lg overflow-hidden border border-border/50 relative mb-4 bg-black/40">
                  <img 
-                   src="/p3_base_position.png" 
+                   src={`${import.meta.env.BASE_URL}p3_base_position.png`} 
                    alt="P3 基礎站位圖" 
                    width={1024}
                    height={800}
